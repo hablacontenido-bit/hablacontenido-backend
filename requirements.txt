@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+pydantic
+imageio[ffmpeg]
+requests
+moviepy==1.0.3
+pillow>=9.0.0
+numpy
