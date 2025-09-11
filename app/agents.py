@@ -6,7 +6,7 @@ from app.tools.elevenlabs_tool import text_to_speech_tool
 assistant = AssistantAgent(
     name="assistant",
     llm_config={
-        "model": "gpt-4o",
+        "model": "gpt-4o-mini",
         "temperature": 0.5,
     },
     system_message=(
