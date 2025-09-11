@@ -20,6 +20,7 @@ user_proxy = UserProxyAgent(
     name="user",
     human_input_mode="NEVER",  # API-driven
     code_execution_config={"use_docker": False},
+    default_auto_reply="TERMINATE" 
 )
 
 # Register ElevenLabs tool — new API requires caller + executor
