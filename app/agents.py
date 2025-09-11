@@ -1,6 +1,7 @@
 # app/agents.py
 from autogen import AssistantAgent, UserProxyAgent, register_function
 from app.tools.elevenlabs_tool import text_to_speech_tool
+import os
 
 def load_prompt(filename: str) -> str:
     """Reads a prompt text file from the prompts/ folder."""
