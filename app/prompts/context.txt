@@ -8,16 +8,42 @@ y otros recursos digitales que acompañan al cliente en su viaje de compra.
 El área trabaja de la mano con el equipo de Marca para asegurar la coherencia, protección y correcto uso de la identidad visual y comunicativa, garantizando que cada pieza refuerce el posicionamiento y la confianza en las marcas.
 
 ### Equipo de Contenidos:
-1. Felipe Martinez - Gerente de contenidos
+1. Felipe Martínez - Gerente de contenidos
 2. Jorge Villafañe - Coordinador de Mercadeo
-3. Guillermo Bohorquez - Coordinador Contenidos Web
-4. Carolina Jimenez - Coordinadora Contenido Digital
+3. Guillermo Bohórquez - Coordinador Contenidos Web
+4. Carolina Jiménez - Coordinadora Contenido Digital
 5. Anny Ruiz - Coordinadora de contenidos y marcas Sodimac Media
-6. Alvaro Rodriguez - Analista Contenidos Web
-7. Yudy Ramirez - Analista Contenidos Web
-8. Idali Gomez - Analista de producción
+6. Álvaro Rodríguez - Analista Contenidos Web
+7. Yudy Ramírez - Analista Contenidos Web
+8. Idali Gómez - Analista de producción
 9. Miguel Quiroga - Analista Contenido Digital
 10. Maria Fernanda Fajardo - Analista Contenido Digital
+
+### Equipo de Contenidos Digitales
+
+El equipo de Contenidos Digitales está conformado por dos coordinadoras de contenidos y tres analistas.
+Nuestra labor se centra en diseñar y ejecutar la estrategia de contenidos, comunicando en redes sociales las diferentes iniciativas y necesidades del negocio.
+
+Además, producimos y gestionamos catálogos digitales de campañas para las marcas Homecenter y Constructor, con el objetivo de fortalecer la comunicación con clientes y posicionar nuestras marcas en los diferentes canales digitales.
+
+
+Felipe Martínez Gutiérrez, es comunicador social con énfasis realización audiovisual.
+Magister en Dirección de Marketing y con estudios en mercadeo digital y mercadeo de moda.
+
+Cuenta con más de 20 años de experiencia en compañías nacionales y multinacionales, la mayoría en las áreas de mercadeo y comunicaciones, fortaleciendo sus habilidades de influencia y liderazgo en el desarrollo de proyectos, campañas y posicionamiento de marcas tradicionales y digitales. Se ha especializado en la generación de estrategias para la adquisición, fidelización y retención de clientes; cuenta con experiencia en negociación, comercio electrónico e investigación de mercados. Su perfil está ligado a la dirección y estrategia creativa en marca y comunicaciones y cuenta con alta experiencia en estrategias de mercadeo para el sector de las telecomunicaciones.
+Ha sido parte de equipos de trabajo en proyectos y compañías como: Virgin Mobile, Colombia, Americanino, Revista Donjuan, entre otros. Y en producciones audiovisuales para: Discovery Channel Latin América/Iberia, Canal Plus (España), Arté (Francia), Infinito (Argentina), WWF (Suiza). Hoy y desde hace un poco más de 5 años, hace parte de la casa de todos los Colombianos como Gerente de Contenidos en Homecenter / Sodimac. Le gustan: La música, la cocina, la fotografía y montar en bicicleta.
+
+Soy Carolina Jiménez, comunicadora social con énfasis organizacional, tengo experiencia de más de 6 años liderando y coordinando equipos y procesos relacionados a generación y creación de contenidos desde diferentes sectores (mascotas, automotriz y retail). Me apasionan las tendencias digitales, el contenido creativo y las nuevas ideas que pueden surgir trabajando en equipo 
+
+Soy Anny Ruiz, Diseñadora gráfica, con más de 14 años de experiencia actualmente estoy cursando un MBA con enfoque en marketing digital.  En estos años de experiencia profesional y trabajo creativo, he fortalecido mis destrezas de la mano de la innovación, la constancia y el trabajo colectivo. He logrado mejorar mis habilidades de liderazgo, pensamiento estratégico, entendimiento de los datos y ejecución integral de proyectos para conseguir resultados constantes y eficientes. Sumado a esto, he desarrollado un amplio conocimiento del sector Retail, lo que me ha permitido establecer un equilibrio estratégico entre las necesidades del negocio y los intereses reales de los consumidores.
+
+Soy Jorge Villafañe. Apasionado por el mercadeo, la comunicación estratégica y la sostenibilidad, con más de 12 años de experiencia generando valor en sectores como retail y publicidad. He liderado campañas premiadas, impulsado el crecimiento en canales digitales y fortalecido la reputación de marca a través de iniciativas con impacto social, ambiental y económico. Me inspiran los proyectos que conectan con las personas y transforman positivamente su entorno. Amante del ciclismo, el buceo y la naturaleza. Creo en el poder de la creatividad y el análisis para construir marcas con propósito. Defensor del bienestar animal y profundamente comprometido con mi familia, que es mi motor y mi inspiración diaria.
+
+Soy Migue Quiroga, comunicador social y periodista. Actualmente me desempeño como Analista de Contenidos Digitales, en donde le doy manejo a la parrilla de redes sociales de la marca Constructor en Sodimac. He sido parte de esta Casa desde hace 4 años y ha sido vital para conocer las marcas, crear y proponer contenidos, e implementar comunicación asertiva para los distintos públicos que tenemos.
+
+Soy Idaly Gómez, publicista con 18 años de experiencia en comunicación corporativa, diseño gráfico y desarrollo de productos. He liderado equipos creativos y coordinado proyectos estratégicos que integran diseño, innovación y resultados. Mi mayor fortaleza es la estrategia, y en el último año la he potenciado en la producción de contenidos para medios digitales como redes sociales, catálogos y web.
+
+Soy Maria Fernanda Fajardo, Maestra en Artes Visuales con énfasis en Expresión Audiovisual y llevo más de 5 años creando proyectos gráficos y audiovisuales. Manejo herramientas de Adobe y de inteligencia artificial, combinando creatividad y estrategia para generar contenidos visuales cercanos, frescos e impactantes.
 
 ### Equipo de diseño web
 
@@ -30,9 +56,70 @@ Contamos con más de 1000 blogs (o guías de compra) de contenido editorial que 
 Hemos logrado construir un sitio exclusivo para poder comunicar y exponer todo el contenido que el área crea. Este sitio es: https://www.homecenter.com.co/homecenter-co/content/inspiracion-proyectos-hogar/.
 También contamos con un landing donde se alojan todos los blog (o guías de compra) a modo de tips y consejos: https://www.homecenter.com.co/homecenter-co/content/inspiracion-proyectos-hogar-tips-y-consejos/, dividido por espacios de la casa y también por categorías de productos.
 
+Álvaro Rodríguez: profesional en Diseño Grafico de la Universidad Jorge Tadeo Lozano, orgulloso padre de Luciana, estoy en el mundo digital desde hace aproximadamente 15 años desarrollando sitios web. Ha incursionado también en el marketing digital como Social Media Manager, le gusta ser puntual y su palabra es mi firma, se considero una persona sociable y positiva, además siempre tienes una buena disposición de apoyo y trabajo en grupo.
+
+Yudy Ramírez: diseñadora gráfica de Bogotá. Le apasiona viajar y es amante de los animales; tiene una perrita llamada Ela que le llena de alegría cada día. Su mayor aporte es su energía y creatividad. Cuenta con experiencia en el sector retail y está comprometida a dar lo mejor de mis capacidades para contribuir al crecimiento del área. Su objetivo es colaborar activamente en proyectos, aprender juntos al equipo, alcanzar y superar sus metas.
+
+Guillermo Bohórquez: profesional en publicidad con maestría en diseño de la Universidad Jorge Tadeo Lozano del año 2005. Apasionado por el deporte. Jugador de voleibol desde los 8 años y recientemente jugador amaterur del tenis desde hace un año. Las fortalezas más fuertes son su organización y la capacidad estratégica para armar proyectos. Busca cohesión dentro de su equipo y sobretodo que la actitud positiva y propositiva sea quien gobierne el ambiente del equipo.
+
+
+### ¿Que se hace hoy?
+
+¿Quiénes somos?
+
+El equipo de Contenidos Digitales está conformado por coordinadores y analistas que trabajamos en la estrategia de comunicación de Homecenter y Constructor.
+Nuestro propósito es acompañar a los usuarios en todo su viaje de compra: desde que tienen una idea, hasta que la hacen realidad, inspirándolos, resolviendo dudas y guiando sus decisiones.
+
+¿Qué hace el equipo de Contenidos?
+
+Diseñamos y ejecutamos la estrategia de contenidos en redes sociales, comunicando las iniciativas del negocio y generando confianza en los usuarios.
+
+Creamos y gestionamos guías de compra basadas en las búsquedas reales de los clientes, que ayudan a resolver dudas e inspirar decisiones.
+
+Desarrollamos catálogos digitales con fotos y videos inspiracionales que convierten el catálogo en una verdadera fuente de inspiración.
+
+Innovamos con el uso de Inteligencia Artificial (IA) para crear imágenes, videos y locuciones de manera más rápida, personalizada y diversa.
+
+¿Qué son las guías de compra?
+
+Las guías de compra son páginas editoriales que responden a preguntas y necesidades frecuentes de los usuarios.
+
+Ya hemos desarrollado más de 1.100 guías con base en lo que los clientes buscan en Google.
+
+Actualmente las estamos transformando en videos para YouTube y redes sociales, aprovechando que este es uno de los formatos más consumidos.
+
+¿Cómo son los catálogos digitales?
+
+Nuestros catálogos evolucionaron de simples fotos en silueta a contenidos dinámicos e inspiracionales:
+
+Usamos imágenes de producto en ambientes reales que inspiran proyectos de los clientes.
+
+Los catálogos digitales creados con herramientas como iPaper ahora incluyen fotos y videos ambientados, ofreciendo experiencias más atractivas para el usuario: https://www.homecenter.com.co/homecenter-co/content/inspiracion-proyectos-hogar-catalogos-digitales/?cid=_lnd_1421181
+
+¿Cómo usamos la Inteligencia Artificial?
+
+La IA Generativa es un aliado clave para el equipo:
+
+Nos permite crear imágenes y videos de productos en entornos realistas, sin necesidad de grandes producciones.
+
+Estamos convirtiendo más de 2.000 guías de compra en videos con apoyo de IA.
+
+Experimentamos con locuciones digitales que replican voces, cambian entonaciones y generan guiones nuevos para acompañar contenidos en redes sociales (siempre con consentimiento).
+
+¿Cuál es el impacto del equipo?
+
+Hemos creado más de 150 videos a partir de guías escritas: https://www.youtube.com/playlist?list=PLLoBeMjDhOWFCq2-ZqRuHqVRE8VaiMl1P
+
+Transformamos los catálogos en experiencias visuales y sonoras que aumentan el engagement en redes sociales.
+
+Resolvemos dudas, inspiramos proyectos y ayudamos a que los usuarios avancen con confianza en su decisión de compra.
+
+En resumen: no solo hacemos contenido, creamos experiencias que convierten clics en historias felices de compra
+
 ### Perfiles de redes sociales de Homecenter:
 
 * Perfil de Instagram: https://www.instagram.com/Homecenter_co 
 * Perfil de X: https://x.com/homecenter_co 
-* Perfil de Facebook: https://www.facebook.com/homecentercolombia 
+* Perfil de Facebook: https://www.facebook.com/homecentercolombia
+* Perfil de Tiktok:https://www.tiktok.com/@homecenter_col
 * Canal de YouTube: https://www.youtube.com/homecentercolombia
