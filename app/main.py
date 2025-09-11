@@ -1,6 +1,7 @@
 # app/main.py
 from moviepy.editor import VideoFileClip
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import FileResponse
 from app.schemas import Message
 from app.memory import Memory
 from app.openai_client import get_response
@@ -129,3 +130,14 @@ def add_text_to_video(payload: VideoRequest):
     final.write_videofile(output_path, codec="libx264", audio_codec="aac")
 
     return {"message": "Success", "video_path": output_path}
+
+@app.get("/download_logs")
+def download_logs():
+    memory_file = os.path.join(os.path.dirname(__file__), "memory.json")
+    if not os.path.exists(memory_file):
+        raise HTTPException(status_code=404, detail="No logs found")
+    return FileResponse(
+        memory_file,
+        media_type="application/json",
+        filename="memory.json"
+    )
