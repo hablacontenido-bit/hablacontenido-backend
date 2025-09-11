@@ -17,6 +17,8 @@ from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip
 import tempfile, os, uuid, requests
 import moviepy.config as mpc
 from moviepy.video.tools.drawing import color_split
+from app.memory import Memory
+from app.agents import assistant, user_proxy
 
 app = FastAPI()
 
@@ -141,3 +143,39 @@ def download_logs():
         media_type="application/json",
         filename="memory.json"
     )
+
+@app.post("/agent/")
+async def agent_chat(message: Message):
+    user_id = message.user_id
+    user_message = message.content
+
+    # 1. Load conversation history
+    history = memory.get_history(user_id)
+
+    # 2. Add current user message
+    memory.add_message(user_id, "user", user_message)
+
+    # 3. Run AutoGen dialogue (stateless by default)
+    # We'll inject context by replaying history
+    formatted_history = [
+        {"role": h["role"], "content": h["content"]} for h in history
+    ]
+    formatted_history.append({"role": "user", "content": user_message})
+
+    chat_result = user_proxy.initiate_chat(
+        assistant,
+        message=user_message,
+        history=formatted_history  # <— pass memory into AutoGen
+    )
+
+    # 4. Save assistant reply
+    if isinstance(chat_result, str):
+        reply = chat_result
+        memory.add_message(user_id, "assistant", reply)
+        return {"response": reply, "type": "text"}
+
+    # 5. If tool returns file (audio)
+    if isinstance(chat_result, dict) and "file" in chat_result:
+        reply = f"Audio generated: {chat_result['file']}"
+        memory.add_message(user_id, "assistant", reply)
+        return {"response": reply, "type": "audio"}
