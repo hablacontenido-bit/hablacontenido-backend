@@ -8,5 +8,5 @@ requests
 moviepy==1.0.3
 pillow>=9.0.0
 numpy
-pyautogen
+pyautogen==0.2.21
 elevenlabs
