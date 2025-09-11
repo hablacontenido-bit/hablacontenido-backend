@@ -2,18 +2,24 @@
 from autogen import AssistantAgent, UserProxyAgent, register_function
 from app.tools.elevenlabs_tool import text_to_speech_tool
 
+def load_prompt(filename: str) -> str:
+    """Reads a prompt text file from the prompts/ folder."""
+    base_dir = os.path.dirname(__file__)  # directory of current script
+    file_path = os.path.join(base_dir, "prompts", filename)
+    with open(file_path, "r", encoding="utf-8") as f:
+        return f.read()
+
+instruction = load_prompt("instruction.txt")
+context = load_prompt("context.txt")
+
 # Create agents first
 assistant = AssistantAgent(
     name="assistant",
     llm_config={
-        "model": "gpt-4o-mini",
+        "model": "gpt-4o",
         "temperature": 0.5,
     },
-    system_message=(
-        "You are a helpful AI assistant. "
-        "Answer questions normally, but if the user requests audio/speech, "
-        "call the `text_to_speech` tool."
-    ),
+    system_message=(instruction + "\n\n" + context),
 )
 
 user_proxy = UserProxyAgent(

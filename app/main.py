@@ -152,26 +152,36 @@ async def agent_chat(message: Message):
     # 1. Load conversation history
     history = memory.get_history(user_id)
 
-    # 2. Add current user message
+    # 2. Save user message
     memory.add_message(user_id, "user", user_message)
 
-    # 3. Build full message with memory
+    # 3. Build full message with history
     history_text = "\n".join([f"{h['role']}: {h['content']}" for h in history])
     full_message = f"Conversation so far:\n{history_text}\n\nUser: {user_message}"
 
-    # 4. Run AutoGen (safe: one round only)
+    # 4. Run AutoGen
     chat_result = user_proxy.initiate_chat(
         assistant,
         message=full_message,
         max_turns=1
     )
 
-    # 5. Save assistant reply
+    # 5. If tool returns file (audio)
     if isinstance(chat_result, dict) and "file" in chat_result:
-        reply = f"Audio generated: {chat_result['file']}"
-        memory.add_message(user_id, "assistant", reply)
-        return {"response": reply, "type": "audio"}
+        audio_path = chat_result["file"]
+        memory.add_message(user_id, "assistant", f"Audio generated")
+        return FileResponse(
+            audio_path,
+            media_type="audio/mpeg",
+            filename="output.mp3"
+        )
 
-    reply = str(chat_result)
+    # 6. Otherwise extract the assistant’s reply
+    if hasattr(chat_result, "summary"):
+        reply = chat_result.summary
+    else:
+        reply = str(chat_result)
+
     memory.add_message(user_id, "assistant", reply)
     return {"response": reply, "type": "text"}
+
